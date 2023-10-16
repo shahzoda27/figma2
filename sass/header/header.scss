@@ -1,0 +1,46 @@
+%center{
+    display: flex;
+    align-items: center;
+}
+header{
+    width: 100%;
+    background-color: #2B2B2B;
+    color: #fff;
+    @extend %center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    nav{
+        img{
+            margin-right: 15px;
+        }
+    }
+    main{
+        @extend %center;
+        gap: 30px;
+        .main__ul{
+            @extend %center;
+            gap: 30px;
+            li{
+                a{
+                    color: #FFF;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+            }
+        }
+        button{
+            padding: 10px 35px;
+            display: flex;
+            gap: 20px;
+            border: none;
+            border-radius: 7px;
+            background-color:#A259FF ;
+            color: #fff;
+             i{
+                font-size: 20px;
+                color: #fff;
+             }
+        }
+    }
+
+}

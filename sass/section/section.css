@@ -1,0 +1,257 @@
+.section1 {
+  width: 100%;
+  padding: 50px 50px;
+  display: flex;
+  align-items: center;
+  background-color: #2B2B2B;
+  color: #fff;
+}
+.section1 .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+  color: #fff;
+  gap: 30px;
+}
+.section1 .box h1 {
+  font-size: 60px;
+}
+.section1 .box p {
+  font-size: 20px;
+  max-width: 400px;
+}
+.section1 .box button {
+  max-width: 200px;
+  padding: 8px 20px;
+  border: none;
+  background-color: #A259FF;
+  color: #fff;
+  border-radius: 8px;
+}
+.section1 .box .box-item {
+  display: flex;
+  gap: 30px;
+}
+.section1 .box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section1 .box1 h1 {
+  opacity: 0.6;
+}
+
+.section2 {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+  gap: 20px;
+  background-color: #2B2B2B;
+  color: #fff;
+}
+.section2 h1 {
+  font-size: 40px;
+}
+.section2 h3 {
+  font-size: 22px;
+}
+.section2 .divs {
+  display: flex;
+  gap: 15px;
+}
+.section2 .divs .div1 img {
+  margin-bottom: 15px;
+}
+.section2 .divs .div1 .div1-item {
+  display: flex;
+  gap: 13px;
+}
+.section2 .divs .div1 .div1-item button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: #A259FF;
+  color: #fff;
+}
+.section2 .divs .div1 h3 {
+  margin-bottom: 10px;
+}
+
+.section3 {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+  gap: 20px;
+  background-color: #2B2B2B;
+  color: #fff;
+}
+.section3 h1 {
+  font-size: 40px;
+}
+.section3 h4 {
+  font-size: 22px;
+}
+.section3 .item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.section3 .item .item1 {
+  padding: 30px 85px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: rgb(80, 79, 79);
+}
+.section3 .item .item1 h3 {
+  margin: 10px 0px;
+}
+.section3 .item .item1 span {
+  display: flex;
+  gap: 5px;
+}
+.section3 .item .item1 span p {
+  opacity: 0.6;
+}
+
+.section4 {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2B2B2B;
+  color: #fff;
+  padding-left: 200px;
+}
+.section4 img {
+  max-width: 85%;
+  margin-top: 15px;
+}
+
+.section5 {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 250px;
+  gap: 20px;
+  background-color: #2B2B2B;
+  color: #fff;
+}
+.section5 h1 {
+  font-size: 40px;
+}
+.section5 h3 {
+  font-size: 22px;
+}
+.section5 .section5-boxs {
+  display: flex;
+  gap: 35px;
+}
+.section5 .section5-boxs .section5-box1 {
+  padding-bottom: 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgb(80, 79, 79);
+}
+.section5 .section5-boxs .section5-box1 span {
+  display: flex;
+  gap: 5px;
+}
+.section5 .section5-boxs .section5-box1 .box1-div {
+  display: flex;
+  justify-content: space-between;
+}
+.section5 .section5-boxs .section5-box1 .box1-div div h5 {
+  opacity: 0.6;
+}
+.section5 .section5-boxs .section5-box1 .box1-div div h4 {
+  margin-top: 5px;
+}
+
+.section6 {
+  width: 100%;
+  height: 100vh;
+  /*background-image: url('../../img/img15.jpg');
+  background-position: center;
+  background-size: cover;*/
+}
+.section6 img {
+  width: 100%;
+}
+
+.section7 {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 250px;
+  gap: 20px;
+  background-color: #2B2B2B;
+  color: #fff;
+}
+.section7 h1 {
+  font-size: 40px;
+}
+.section7 h3 {
+  font-size: 20px;
+}
+.section7 .section7-boxs {
+  display: flex;
+  gap: 30px;
+}
+
+.section8 {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 250px;
+  gap: 20px;
+  background-color: #2B2B2B;
+  color: #fff;
+}
+.section8 .id {
+  display: flex;
+  gap: 25px;
+  background-color: rgb(80, 79, 79);
+  border-radius: 8px;
+}
+.section8 .id div h1 {
+  font-size: 35px;
+  margin: 10px 0px;
+}
+.section8 .id div p {
+  width: 250px;
+  margin: 20px 0px;
+}
+.section8 .id div span {
+  display: flex;
+  background-color: #fff;
+  color: black;
+  gap: 10px;
+  border-radius: 7px;
+}
+.section8 .id div span h4 {
+  margin: 10px 10px;
+}
+.section8 .id div span button {
+  padding: 10px 50px;
+  border: none;
+  border-radius: 7px;
+  background-color: #A259FF;
+  color: #fff;
+}/*# sourceMappingURL=section.css.map */
